@@ -1,17 +1,16 @@
 ## ExcelWidget
-[A widget to read and save numbers.]
+A Mendix pluggable widget to show and edit `Entity`s from `Domain Model`.
+
+It looks like this: 
+![sceenshot](./README-assets/screenshot.PNG)
 
 ## Features
-[feature highlights]
 
-## Usage
-[step by step instructions]
+![properties](./README-assets/properties.PNG)
 
-## Demo project
-[link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
+1. You can set `headerHeight` and `rowHeight` of the table.
+2. You can set `datasource` and `columns` to show on the table.
+3. You can set `On Row Click Action` to do something with the row when clicked.
 
 ## Development and contribution
 

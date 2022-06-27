@@ -65,14 +65,10 @@
                     <description>Height of the Header.</description>
                 </property>
             </propertyGroup>
-        </propertyGroup>
-        <propertyGroup caption="Action">
-            <property key="rowsChangeAction" type="action" required="false">
-                <caption>On Rows Change</caption>
-                <description>Action to be performed when rows hase bean edited by user.</description>
-            </property>
-            <systemProperty key="Editability" />
-            <systemProperty key="TabIndex" />
+            <propertyGroup caption="system">
+                <systemProperty key="Editability" />
+                <systemProperty key="TabIndex" />
+            </propertyGroup>
         </propertyGroup>
     </properties>
 </widget>
