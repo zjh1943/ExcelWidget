@@ -1,0 +1,24 @@
+.widget-excelwidget-clickable {
+    cursor: pointer;
+}
+
+.widget-excelwidget {
+    display: inline-block;
+}
+
+.widget-excelwidget.badge:empty {
+    display: initial;
+    /* Fix padding to stay round */
+    padding: 3px 10px;
+}
+
+.widget-excelwidget.label:empty {
+    display: initial;
+    /* Fix padding to stay square */
+    padding: .2em .8em .3em;
+}
+
+.widget-excelwidget.badge {
+    min-width: 18px;
+    min-height: 18px;
+}

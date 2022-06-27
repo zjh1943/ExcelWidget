@@ -1,0 +1,40 @@
+{
+  "name": "excelwidget",
+  "widgetName": "ExcelWidget",
+  "version": "1.0.0",
+  "description": "A widget to read and save numbers.",
+  "copyright": "Jinheng Zhu 2022. All rights reserved.",
+  "author": "Jinheng Zhu",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "C:\\Users\\Administrator\\Documents\\Mendix\\MyFirstApp-main",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "antintelligence",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "test": "pluggable-widgets-tools test:unit:web --no-cache --ci && npm run test:e2e",
+    "test:unit": "pluggable-widgets-tools test:unit:web --coverage",
+    "test:e2e": "pluggable-widgets-tools test:e2e --url \"https://mywidget.mxapps.io\"",
+    "test:e2e:dev": "pluggable-widgets-tools test:e2e:web:dev",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "pino": "^8.1.0",
+    "pino-pretty": "^8.1.0",
+    "react-data-grid": "^7.0.0-beta.13"
+  }
+}
